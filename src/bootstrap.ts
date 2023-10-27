@@ -1,11 +1,12 @@
 import { createPinia } from "pinia";
-//import { state } from "shared";
 import { createApp } from "vue";
+import vuetify from './plugins/vuetify'
+//import { loadFonts } from './plugins/webfontloader'
 import App from "./App.vue";
-//import "./stores/counter";
 
-//state.message = "Hello from host!";
+//loadFonts()
 
 const app = createApp(App);
-app.use(createPinia());
+app.use(createPinia())
+  .use(vuetify);
 app.mount("#app");
