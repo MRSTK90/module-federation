@@ -6,7 +6,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "shared": ["../shared/shared.ts"]
-    }
+    },
+    "moduleResolution": "node"
   },
   "references": [
     {

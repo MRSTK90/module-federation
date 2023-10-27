@@ -4,6 +4,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "composite": true,
+    "moduleResolution": "node",
     "types": ["node"]
   }
 }
